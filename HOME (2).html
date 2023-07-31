@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR GPA CALCULATOR</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    
+    <div class="GpaInputs">
+        <center><h1><b>GPA CALCULATOR</b></h1>
+        <table >
+            <tbody class="section">
+            <tr>
+                <th>Course Code</th>
+                <th>Unit</th>
+                <th>Grade</th>
+            </tr>
+            <div class="Course">
+                <tr>
+
+                    <td><input type="text" placeholder="E.g. ACC121" class="ccod" id="course0"></td>
+                    <td><input type= "number" placeholder="1 - 3" class="cun" id="unit0"></td>
+                    <td><select name="" id="grd0" class="grade">
+                        <option value="5">A</option>
+                        <option value="4">B</option>
+                        <option value="3">C</option>
+                        <option value="2">D</option>
+                        <option value="1">E</option>
+                        <option value="0">F</option>
+
+                    </select></td>
+                </tr>
+            </div>
+            <div class="Course">
+                <tr>
+                    <td><input type="text" placeholder="E.g. ACC121" class="ccod" id="course1"></td>
+                    <td><input type= "number" placeholder="1 - 3" class="cun" id="unit1"></td>
+                    <td><select name="" class="grade" id="grd1">
+                        <option value="5">A</option>
+                        <option value="4">B</option>
+                        <option value="3">C</option>
+                        <option value="2">D</option>
+                        <option value="1">E</option>
+                        <option value="0">F</option>
+                </tr>
+            </div>
+            </tbody>
+            
+        </table>
+
+        <div class="btn">
+            <button id="AddCourse">Add Course</button>
+
+        </div>
+        </center>
+
+
+    </div>
+
+
+    
+    <div class="btn2"><button id="Gpa">Get GPA</button></div>
+    <div id ="testing">
+
+    </div>
+    <script src="pro.js"></script>
+</body>
+</html>

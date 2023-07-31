@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x:visible;
+}
+
+
+body {
+    background-color: white;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.GpaInputs{
+    display: block;
+
+    padding: 12px;
+    background-color: white;
+    width: 800px;
+    border-radius: 12px;
+    background: #d6d6d6;
+    filter: drop-shadow(5px 5px 6px  rgba(5, 5, 5, 0.16));
+
+}
+
+.Course{
+    display: grid;
+    width: 100%;
+    margin: 1rem, 0;
+
+
+    
+}
+
+.ccod{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin: 12px 0;
+    padding: 8px 6px;
+    height: 36px;
+}
+
+.cun,.grade{
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    margin: 12px 0;
+    padding: 8px 6px;
+    height: 36px;
+
+}
+.btn1{
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    margin: 12px 0;
+    padding: 8px 6px;
+    height: 36px;
+
+}
+
+
+table{
+    border-spacing: 15px;
+    
+
+}
+
+.btn{
+    display: block;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+
+.btn2{
+    display: block;
+    width:120px
+}
+
+#AddCourse, #Gpa{
+    display: block;
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+}
+
+
+
+.btn button, .btn2 button{
+    border: none;
+    background-color: blue;
+    color: azure;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.btn button:hover {
+    background-color: black;
+    color: white;
+}
+.btn2 button:hover {
+    background-color: black;
+    color: white;
+}
